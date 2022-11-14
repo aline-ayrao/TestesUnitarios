@@ -28,11 +28,16 @@ public class Teste_Exercicio08_medium {
             vetorMesesEsperado[10] = "Novembro";
             vetorMesesEsperado[11] = "Dezembro";
     }
-
     @Test
     public void testeCriaVetorMeses() {
      
      Assert.assertArrayEquals(vetorMesesEsperado,exercicio08_medium.criaVetorMeses());
+
+    }
+    @Test
+    public void testeImprimeVetorMeses() {
+     
+     exercicio08_medium.imprimeValoresVetor(vetorMesesEsperado);
 
     }
 }
