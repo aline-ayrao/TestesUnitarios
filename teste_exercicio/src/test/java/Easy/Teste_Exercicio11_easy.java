@@ -1,3 +1,4 @@
+package Easy;
 import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
@@ -15,7 +16,6 @@ public class Teste_Exercicio11_easy {
     @Test
     public void testarSomaDois(){
        Assert.assertEquals(220, exercicio11_easy.somaDois(20));
-        
-
+    
     }
 }

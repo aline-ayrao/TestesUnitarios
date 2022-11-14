@@ -1,3 +1,4 @@
+package Easy;
 import java.text.DecimalFormat;
 
 import org.junit.Assert;
