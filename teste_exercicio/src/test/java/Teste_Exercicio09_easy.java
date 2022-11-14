@@ -2,7 +2,6 @@ import org.junit.BeforeClass;
 import org.junit.Test;
 
 import teste_exercicio.Easy.Exercicio09_easy;
-import teste_exercicio.Medium.Exercicio01_medium;
 
 public class Teste_Exercicio09_easy {
     
