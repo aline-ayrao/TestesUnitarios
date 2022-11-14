@@ -47,4 +47,10 @@ public class Teste_Exercicio08_easy {
         String valorAtual = df.format(exercicio08_easy.calculaImpostoRenda(5500.00));
         Assert.assertEquals(valorEsperado, valorAtual.toString());
     }
+    @Test
+    public void testarCalculaSalarioLiquido(){
+        String valorEsperado = "3.329,80";
+        String valorAtual = df.format(exercicio08_easy.calcularSalarioLiquido(3500.00, exercicio08_easy.calculaImpostoRenda(3500.00)));
+        Assert.assertEquals(valorEsperado, valorAtual.toString());
+    }
 }
