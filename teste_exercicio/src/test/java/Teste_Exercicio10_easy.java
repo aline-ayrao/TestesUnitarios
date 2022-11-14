@@ -4,16 +4,16 @@ import org.junit.Assert;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-import teste_exercicio.Easy.Exercicio10_2_easy;
+import teste_exercicio.Easy.Exercicio10_easy;
 
-public class Teste_Exercicio10_02_easy {
+public class Teste_Exercicio10_easy {
 
-    static Exercicio10_2_easy exercicio10_2_easy;
+    static Exercicio10_easy exercicio10_2_easy;
     static DecimalFormat df = new DecimalFormat("#,###.00");
 
     @BeforeClass
     public static void before() {
-        exercicio10_2_easy = new Exercicio10_2_easy();
+        exercicio10_2_easy = new Exercicio10_easy();
     }
 
     @Test
