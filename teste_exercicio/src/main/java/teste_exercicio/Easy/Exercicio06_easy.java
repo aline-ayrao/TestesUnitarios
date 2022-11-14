@@ -8,7 +8,7 @@ public class Exercicio06_easy {
         return "Aprovado";
         } // fim se
 
-        if(resultado < 5){
+        if(resultado >= 0 && resultado < 5){
             return"Reprovado";
         }// fim se
 
