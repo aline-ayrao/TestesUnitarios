@@ -14,7 +14,7 @@ public class Teste_Exercicio03_medium {
     }
 
     @Test
-    public void testeTabuada(){
+    public void testeNumerosAcumulados(){
         exercicio03_medium.somaNumerosAcumulados();
     }
     

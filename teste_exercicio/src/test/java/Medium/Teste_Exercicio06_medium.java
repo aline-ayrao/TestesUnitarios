@@ -14,7 +14,7 @@ public class Teste_Exercicio06_medium {
     }
 
     @Test
-    public void testeTabuada() {
+    public void testeCalculaFatorial() {
         exercicio06_medium.calculaFatorial(25);
 
     }

@@ -14,7 +14,7 @@ public class Teste_Exercicio05_medium {
     }
 
     @Test
-    public void testeTabuada() {
+    public void testeExibeMenorNumero() {
         exercicio05_medium.exibeMenorNumero();
 
     }

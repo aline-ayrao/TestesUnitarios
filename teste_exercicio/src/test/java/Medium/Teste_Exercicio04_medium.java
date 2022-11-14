@@ -15,7 +15,7 @@ public class Teste_Exercicio04_medium {
     }
 
     @Test
-    public void testeTabuada(){
+    public void testeMultiplicaMil(){
         exercicio04_medium.multiplicacaoNumerosAteMil();
     }
 }
