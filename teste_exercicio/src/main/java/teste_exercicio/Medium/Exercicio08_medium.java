@@ -1,4 +1,4 @@
-package Medium;
+package teste_exercicio.Medium;
 
 public class Exercicio08_medium {
     public static void main(String[] args) {

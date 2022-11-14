@@ -1,4 +1,4 @@
-package Easy;
+package teste_exercicio.Easy;
 
 public class Execucao {
     

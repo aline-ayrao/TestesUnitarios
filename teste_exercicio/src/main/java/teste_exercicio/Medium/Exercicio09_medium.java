@@ -1,4 +1,4 @@
-package Medium;
+package teste_exercicio.Medium;
 
 import javax.swing.JOptionPane;
 

@@ -1,4 +1,4 @@
-package Easy;
+package teste_exercicio.Easy;
 import javax.swing.JOptionPane;
 
 public class Exercicio02_easy { // inicio classe exercicio
