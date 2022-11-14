@@ -1,10 +1,8 @@
+package  teste_exercicio.Medium ;
 
+import javax.swing.JOptionPane;
 
-package  Medium ;
-
-import  javax . balanço . JOptionPane ;
-
-public  class  Execução {
+public  class  Execucao {
     public  static  void  main ( String [] args ) {
         // Exercicio01_medium exercicio01_medium = new Exercicio01_medium();
         // exercicio01_medium.exibeParOuImpar();
@@ -46,10 +44,11 @@ public  class  Execução {
         // exercicio09_medium.nomeNumeroAlunos();
 
     
-        Exercicio10_medium  exercicio10_medium = new  Exercicio10_medium ();
-        int  elementoFibonacci = Integer . parseInt ( JOptionPane . showInputDialog ( "Digite um numero:" ));
-        int [] vetorFibonacci = exercicio10_medium . calcularTermoFibonacci ( elementoFibonacci );
-        exercicio10_medium . imprimeVetor ( vetorFibonacci );
+        Exercicio10_medium exercicio10_medium = new Exercicio10_medium();
+        int elementoFibonacci = Integer.parseInt(JOptionPane.showInputDialog("Digite um numero:"));
+        int [] vetorFibonacci = exercicio10_medium.calculaTermoFibonacci(elementoFibonacci);
+        exercicio10_medium.imprimeVetor(vetorFibonacci);
+
 
     }
 }
