@@ -1,21 +1,33 @@
 package teste_exercicio.Easy;
-import javax.swing.JOptionPane;
 
 public class Exercicio05_easy {
-    
-    public static void main(String[] args) {
-        Integer num1, num2, num3;
-        String dig1 = JOptionPane.showInputDialog("Digite o primeiro numero");
-        String dig2 = JOptionPane.showInputDialog("Digite o segungo numero");
-        String dig3 = JOptionPane.showInputDialog("Digite o terceiro numero");
 
-        num1 = Integer.parseInt(dig1);
-        num2 = Integer.parseInt(dig2);
-        num3 = Integer.parseInt(dig3);
+    public int soma(int num1, int num2, int num3) {
+        int soma;
 
-        JOptionPane.showMessageDialog(null,"A soma dos três números digitados é: " +( num1+num2+num3));
-        JOptionPane.showMessageDialog(null,"A subtração dos três números digitados é: " +( num1-num2-num3));
-        JOptionPane.showMessageDialog(null,"A multiplicação dos três números digitados é: " +( num1*num2*num3));
-        JOptionPane.showMessageDialog(null,"A média dos três números digitados é: " +( (num1+num2+num3)/3));
+        soma = num1 + num2 + num3;
+        return soma;
+
+    }
+
+    public int subtracao(int num1, int num2, int num3) {
+        int subtracao;
+
+        subtracao = num1 - num2 - num3;
+        return subtracao;
+    }
+
+    public int multiplicacao(int num1, int num2, int num3) {
+        int multiplicacao;
+
+        multiplicacao = num1 * num2 * num3;
+        return multiplicacao;
+    }
+
+    public int media(int soma) {
+        int media;
+
+        media = soma / 3;
+        return media;
     }
 }

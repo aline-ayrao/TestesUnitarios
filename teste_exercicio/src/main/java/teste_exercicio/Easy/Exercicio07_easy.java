@@ -1,14 +1,9 @@
 package teste_exercicio.Easy;
-import javax.swing.JOptionPane;
 
 public class Exercicio07_easy {
 
-    public static void main(String[] args) {
-        Double sal, inss=0.0;
-        String salario;
-
-        salario = JOptionPane.showInputDialog("Digite seu salario");
-        sal = Double.parseDouble(salario);
+    public String calculaInss(Double sal) {
+        Double inss=0.0;
 
         if (sal <= 1045.00) {
             inss = sal * 0.075; //7,5%
@@ -29,6 +24,6 @@ public class Exercicio07_easy {
         if (sal > 6101.06) {
             inss = 854.15; 
         }
-        JOptionPane.showMessageDialog(null,"O Valor do Inss a ser pago é R$ "+ inss);
+        return "O Valor do Inss a ser pago é R$ "+ inss;
     }
 }

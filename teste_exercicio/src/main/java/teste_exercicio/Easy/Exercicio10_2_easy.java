@@ -1,22 +1,15 @@
 package teste_exercicio.Easy;
-import javax.swing.JOptionPane;
 
 public class Exercicio10_2_easy {
-    public static void main(String[] args) {
-        double valorJuros = 0.0, taxaJuros = 0.05, valorInvestimento, valorTotal,ano = 1;
-     
-        valorInvestimento = Integer.parseInt(JOptionPane.showInputDialog("Digite um valor para investir:"));
+    public double calculaInvestimento (double valorInvestimento) {
+        double valorJuros = 0.0, taxaJuros = 0.05, ano = 1;
+        valorInvestimento=1000.00;
                 
         while (ano<=10){
             valorJuros = valorJuros + (valorInvestimento * taxaJuros);
             ano ++;
-
         }
+        return valorJuros;
 
-        valorTotal = valorJuros + valorInvestimento;
-
-        JOptionPane.showMessageDialog(null, "Valor Investido: R$"+ valorInvestimento);
-        JOptionPane.showMessageDialog(null, "Valor Juros: R$"+ valorJuros);
-        JOptionPane.showMessageDialog(null, "Valor Total com Juros: R$"+ valorTotal);
     }
 }
